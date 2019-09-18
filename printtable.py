@@ -1,3 +1,11 @@
+def powers(number, limit):
+    for i in range(1, limit+1):
+        b=i**number
+        print(b)
+
+powers(2,4)
+powers(3,3)
+
 def get_multtable(number, limit):
     """
     Returns a list with multiplication table for number
@@ -42,5 +50,3 @@ def powertable(power, limit):
 if __name__ == "__main__":
     multtable(7, 10)
     powertable(2, 4)
-
-
